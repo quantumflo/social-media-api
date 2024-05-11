@@ -1,4 +1,4 @@
-# Social Media App
+# Social Media REST API's
 ## URI Mappings
 Retrieve all Users - GET /users
 

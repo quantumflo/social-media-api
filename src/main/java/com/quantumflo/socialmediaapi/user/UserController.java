@@ -27,12 +27,6 @@ public class UserController {
     public String helloWorldInternationalized() {
         Locale locale = LocaleContextHolder.getLocale();
         return messageSource.getMessage("good.morning.message", null, "Default Message", locale );
-
-//		- Example: `en` - English (Good Morning)
-//		- Example: `nl` - Dutch (Goedemorgen)
-//		- Example: `fr` - French (Bonjour)
-//		- Example: `de` - Deutsch (Guten Morgen)
-
     }
     @GetMapping("/users")
     public List<User> fetchUsers() {
